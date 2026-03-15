@@ -115,7 +115,3 @@ Claude Code is the primary interface for this tool. It can:
 5. **Make pick recommendations** using the three-agent system
 
 See `CLAUDE.md` for detailed Claude Code instructions.
-
-## License
-
-MIT
