@@ -1,0 +1,10 @@
+data/draft_state.json
+data/draft_log.json
+config/derived_config.json
+config/league_config.json
+docs/my_cheat_sheet.md
+data/ranked_players.json
+data/raw/*.json
+__pycache__/
+*.pyc
+.claude/

@@ -1,0 +1,33 @@
+{
+    "_comment": "Example league config for a 12-team H2H categories league with QS and SV+H",
+    "team_count": 12,
+    "roster_slots": {
+        "C": 1,
+        "1B": 1,
+        "2B": 1,
+        "3B": 1,
+        "SS": 1,
+        "IF": 1,
+        "LF": 1,
+        "CF": 1,
+        "RF": 1,
+        "OF": 1,
+        "UTIL": 2,
+        "SP": 4,
+        "RP": 2,
+        "P": 2,
+        "BN": 6,
+        "IL": 4
+    },
+    "scoring_format": "head-to-head-categories",
+    "scoring_categories": {
+        "batting": ["R", "HR", "RBI", "SB", "AVG"],
+        "pitching": ["K", "ERA", "WHIP", "QS", "SV+H"]
+    },
+    "draft_type": "live-standard",
+    "draft_position": null,
+    "my_team_name": "My Team",
+    "league_name": "My League",
+    "platform": "Yahoo",
+    "min_innings_per_week": 32
+}

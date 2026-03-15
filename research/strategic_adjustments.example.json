@@ -1,0 +1,37 @@
+{
+    "_comment": "Template for strategic adjustments. Fill in with your league-specific research.",
+    "positional_cliffs": {
+        "_example_2B": {
+            "cliff_after_rank": 55,
+            "elite_count": 3,
+            "depth": "very_shallow",
+            "must_draft_by_round": 5,
+            "cliff_player": "Player Name",
+            "notes": "Description of why this position is shallow"
+        }
+    },
+    "category_scarcity": {
+        "_comment": "Rate each category: must_draft, important, moderate, replaceable"
+    },
+    "rank_adjustments": {
+        "_example_player": {
+            "adjustment": -5,
+            "reason": "Positive adjustment (lower rank = better) because of format-specific value"
+        }
+    },
+    "boost_config": {
+        "qs_workhorse_boost": -3,
+        "qs_elite_boost": -5,
+        "high_ip_extra": 2,
+        "short_outing_penalty": 3,
+        "elite_setup_boost": -15,
+        "good_setup_boost": -8,
+        "decent_setup_boost": -5
+    },
+    "player_flags": {
+        "_example_player": {
+            "flag": "sleeper",
+            "note": "Why this player is a sleeper/breakout/bust/injury risk"
+        }
+    }
+}
